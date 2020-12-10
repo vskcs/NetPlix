@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NetPlix</title>
+  	<link rel="stylesheet" href="css/styles.css">
+ 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<h2>NETPLIX</h2>
+</head>
+
+<body>
+	<div id="page-container">
+	<div id="content-wrap">
+	<script src="script.js"> </script>
+
+<div class="container" id="container">
+
+	<div class="form-container sign-in-container">
+		<form name="login" method="POST" action="login.php">
+			<h1>Sign in</h1><br><br>
+			<input type="text" placeholder="Username" />
+			<input type="password" placeholder="Password" />
+			<a href="forgot.html">Forgot your password?</a>
+			<button type="submit" >Sign In</button>
+		</form>
+	</div>
+	
+	<div class="form-container sign-up-container">
+		<form name="reg" method="POST" action="reg.php">
+			<h1>Create Account</h1><br>
+			<input  name="fname" type="text" placeholder="First Name" />
+			<input  name="lname" type="text" placeholder="Last Name" />
+			<input  name="uname" type="text" placeholder="Username" />
+			<input  name="email" type="email" placeholder="Email" />
+			<input  name="passwd" type="password" placeholder="Password" />
+			<input  name="conpasswd" type="password" placeholder="Confirm Password" />
+			<button type="submit" name="users" >Sign Up</button>
+		</form>
+	</div>
+
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>Already have an account?</p>
+				<button class="ghost" id="signIn" onclick="fun()">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>New here? <br> Start your journey with us</p>
+				<button class="ghost" id="signUp" onclick="fun()">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p>
+		<i class="fa fa-copyright"></i>
+		<b>NetPlix </b> by <a target="_blank" href="about.html"><b>VS Koushik</b></a>
+		
+		<a href="https://github.com/vskcs/">&nbsp;&nbsp;<i class="fa fa-github"></i></a>
+		<a href="https://www.linkedin.com/in/vskcs/">&nbsp;&nbsp;<i class="fa fa-linkedin"></i></a>
+		<a href="https://www.facebook.com/vskcs">&nbsp;&nbsp;<i class="fa fa-facebook"></i></a>
+		<a href="https://www.instagram.com/vsk.cs/">&nbsp;&nbsp;<i class="fa fa-instagram"></i></a>
+		<a href="https://www.youtube.com/KoushikGarage">&nbsp;&nbsp;<i class="fa fa-youtube	"></i></a>
+
+	</p>
+</footer>
+</div>
+</body>
+</html>
